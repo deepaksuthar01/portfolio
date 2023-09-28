@@ -11,8 +11,8 @@ const Educations = () => {
                     <div className="flex-1 pr-20">
                         <div className="shadow-xl bg-yellow-500 px-4 py-8 rounded-se-3xl">
                             <div className="bg-white px-3 py-1 my-2 -mx-5 text-black rounded-e-xl w-24 uppercase">HSS</div>
-                            <h3 className="text-3xl font-semibold text-white ">Govt. Senior Secondary School</h3>
-                            <p className="text-white mt-2"><b>class</b>:10 <br />2010-2012</p>
+                            <h3 className="text-3xl font-semibold text-white ">Web Developer</h3>
+                            <p className="text-white mt-2">International Design Institute</p>
                         </div>
                         <div className="shadow-xl bg-yellow-500 px-4 py-8 mt-3 ">
                             <div className="bg-white px-3 py-1 my-2 -mx-5 text-black rounded-e-xl w-24">creative</div>
