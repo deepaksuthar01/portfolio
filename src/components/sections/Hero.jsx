@@ -3,13 +3,17 @@ import { MultitaskingMan, WorkingMan } from "../../assets/images";
 const Hero = () => {
     return (
       <div className="site-bg h-screen w-full pt-32 overflow-hidden">
+        <div className="relative">
+            <div className="absolute -top-[350px] -right-[192px] w-[50rem] h-[50rem] bg-yellow-500 rounded-full"></div>
+        </div>
         <div className="flex justify-evenly max-lg:flex-col-reverse items-center relative z-0">
             <div className="left lg:w-2/4 max-lg:p-5 max-lg:mt-16 max-lg:text-start">
-                <p className="text-xl font-bold mb-4">Hi i m...</p>
-                <h1 className="text-4xl font-bold font-serif ml-4">Deepak Suthar</h1>
-                <p className="mt-5 text-lg font-semibold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi reprehenderit, non vel qui totam incidunt eveniet dicta eius et.</p>
-                <div className="lg:text-center">
-                    <button className="mt-10 bg-yellow-500 py-2 px-4 rounded-3xl font-serif font-semibold text-white  hover:text-black hover:shadow-2xl ">Download cv</button>
+                <p className="text-xl font-bold ">Hello, I am</p>
+                <h1 className="text-4xl font-bold font-sans  my-4">Deepak Suthar</h1>
+                <h3 className="font-bold text-lg font-sans" >I Am Passionate Developer</h3>
+                <p className="mt-5 text-lg font-semibold ">I develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
+                <div className="">
+                    <button className="site-btn">Download cv</button>
                 </div>
             </div>
             <div className="right">              

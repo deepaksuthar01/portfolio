@@ -2,7 +2,7 @@ import { FaBars } from "react-icons/fa";
 
 const Header = () => {
     return (
-        <div className="absolute top-0 w-full">
+        <div className="absolute top-0 w-full z-10">
             <nav className="bg-transparent flex justify-between items-center max-lg:p-10 lg:p-4 px-16 max-lg:shadow-xl max-lg:bg-white">
                 <div className="site-log">
                     <h2 className="site-text-color lg:text-xl max-lg:text-2xl font-semibold font-serif bg-black rounded-full p-3">D<span className="text-white">p</span></h2>                
