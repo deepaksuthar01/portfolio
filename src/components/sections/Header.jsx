@@ -11,11 +11,11 @@ const Header = () => {
                     <FaBars />
                 </button>
                 <ul className="nav-items flex justify-between items-center gap-12 max-lg:hidden">
-                    <li className="nav-item p-2 font-semibold text-xl hover:site-text-color"><a href="#home">Home</a></li>
-                    <li className="nav-item p-2 font-semibold text-xl hover:site-text-color"><a href="#about">About me</a></li>
-                    <li className="nav-item p-2 font-semibold text-xl hover:site-text-color"><a href="#services">Services</a></li>
-                    <li className="nav-item p-2 font-semibold text-xl hover:site-text-color"><a href="#portfolio">Portfolio</a></li>
-                    <li className="nav-item p-2 font-semibold text-xl hover:site-text-color"><a href="#contact">Contact Me</a></li>
+                    <li className="nav-item p-2 font-bold text-lg hover:bg-black hover:text-white hover:shadow-xl hover:rounded-lg uppercase"><a href="#home">Home</a></li>
+                    <li className="nav-item p-2 font-bold text-lg hover:bg-black hover:text-white hover:shadow-xl hover:rounded-lg uppercase"><a href="#about">About me</a></li>
+                    <li className="nav-item p-2 font-bold text-lg hover:bg-black hover:text-white hover:shadow-xl hover:rounded-lg uppercase"><a href="#services">Services</a></li>
+                    <li className="nav-item p-2 font-bold text-lg hover:bg-black hover:text-white hover:shadow-xl hover:rounded-lg uppercase"><a href="#portfolio">Portfolio</a></li>
+                    <li className="nav-item p-2 font-bold text-lg hover:bg-black hover:text-white hover:shadow-xl hover:rounded-lg uppercase"><a href="#contact">Contact Me</a></li>
                 </ul>
             </nav>
         </div>

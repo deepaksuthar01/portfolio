@@ -6,6 +6,10 @@
     .site-btn{
         @apply mt-10 bg-yellow-500 py-2 px-4 rounded-3xl font-serif font-semibold text-white  hover:text-black hover:shadow-2xl 
     }
+    .section-title{
+        @apply font-bold text-4xl uppercase
+    }
+   
 }
 @layer utilities {
     .site-bg {
@@ -13,6 +17,10 @@
     }
     .site-text-color{
         @apply text-yellow-500
+    }
+    
+    .container-xl{
+        @apply  w-4/5 mx-auto
     }
    
 }
