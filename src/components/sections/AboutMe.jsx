@@ -2,24 +2,26 @@ import { FaBars } from "react-icons/fa";
 import { MultitaskingMan, WorkingMan, aboutme, man_computer, man_table } from "../../assets/images";
 const AboutMe = () => {
     return (
-      <section className="w-full pt-12 pb-10 overflow-hidden bg-yellow-50 ">
-        <div className="flex flex-wrap max-lg:flex-col justify-center lg:w-4/5 lg:mx-auto">
-            <div className="flex-1 text-center">
-                <img src={aboutme} alt="table" className=""/>
-            </div>
-            <div className="flex-1">
-                <div className="py-20 px-16">
-                    <h2 className="text-4xl font-bold font-sans  uppercase mb-16">About Me</h2>
-                    <h3 className="text-xl font-bold font-sans mb-10">I'm a Freelancer Front-end Developer with over 3 years of experience.</h3>
-                    <p className="text-lg mt-4 ">I'm a Freelancer Front-end Developer with over 3 years of experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
-                    <div className="flex justify-start items-center">
-                        <button className="site-btn rounded-md mr-4">Contact Me</button>
-                        <button className="site-btn rounded-md">Protfolio</button>
+        <section className="py-16 bg-blue-50">
+            <div className="container-xl">
+                <h2 className="section-title mb-5">About Me</h2>
+                <div className="flex flex-wrap gap-10 max-lg:flex-col overflow-hidden  ">
+                    <div className="flex-1 bg-yellow-500 rounded-ee-full">
+                        <div className="p-1">
+                            <img src={aboutme} alt="about me" />
+                        </div>
+                    </div>
+                    <div className="flex-1 lg:p-10">
+                        <h3 className="text-xl font-bold font-sans mb-10">I'm a Freelancer Back-end Developer with over 4 years of experience.</h3>
+                        <p className="text-lg mt-4 ">I'm a Freelancer Back-end Developer with over 4 years of experience. I'm from India. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
+                        <div className="flex justify-start items-center">
+                            <button className="site-btn rounded-md mr-4">Contact Me</button>
+                            <button className="site-btn rounded-md">Protfolio</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-      </section>
+        </section>
     )
 }
 

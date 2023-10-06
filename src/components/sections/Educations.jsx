@@ -8,7 +8,7 @@ const Educations = () => {
                     <h2 className="font-bold text-4xl">EDUCATION & SKILLS</h2>
                 </div>
                 <div className="flex lg:justify-evenly max-lg:flex-col max-lg:gap-10 mt-10">
-                    <div className="flex-1 pr-20">
+                    <div className="flex-1 lg:pr-20">
                         <div className="shadow-xl bg-yellow-500 px-4 py-8 rounded-se-3xl">
                             <div className="bg-white px-3 py-1 my-2 -mx-5 text-black rounded-e-xl w-24 ">logical</div>
                             <h3 className="text-3xl font-semibold text-white ">Web Developer</h3>
@@ -37,7 +37,7 @@ const Educations = () => {
                                         <h2 className="text-lg mb-1">{skill.title}</h2>
                                         <div className="w-[100%] bg-slate-500 h-1 relative rounded-md ">
                                             <div className={`${left_p} h-1 bg-yellow-500`}>
-                                                <div className={`w-3 h-3 bg-yellow-500 rounded-full absolute ${skill.level ==100 ? 'right-0' : `left-[${skill.level}%]`} -top-1`}></div>
+                                                <div className={`w-3 h-3 bg-yellow-500 rounded-full absolute  ${skill.level ==100 ? 'right-0' : `left-[${skill.level}%]`} -top-1`}></div>
                                             </div>
                                         </div>
                                     </div>

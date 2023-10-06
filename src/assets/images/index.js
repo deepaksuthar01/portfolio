@@ -3,11 +3,29 @@ import man_table from './man_table.svg';
 import MultitaskingMan from './Multitasking-man.svg';
 import WorkingMan from './Working-man.svg';
 import aboutme from './aboutme.png';
+import webDevlopeIcon from './web-devlope-icon.svg';
+import webDesignIcon from './web-design-icon.svg';
+import seoIcon from './seo-icon.svg';
+import mapIcon from './map-icon.svg';
+import mailIcon from './mail-icon.svg';
+import phoneIcon from './phone-icon.svg';
+import instaIcon from './insta-icon.svg';
+import linkedinIcon from './linkedin-icon.svg';
+import twitterIcon from './twitter-icon.svg';
 
 export {
     man_computer,
     man_table,
     MultitaskingMan,
     WorkingMan,
-    aboutme
+    aboutme,
+    webDevlopeIcon,
+    webDesignIcon,
+    seoIcon,
+    mapIcon,
+    mailIcon,
+    phoneIcon,
+    instaIcon,
+    linkedinIcon,
+    twitterIcon
 }
