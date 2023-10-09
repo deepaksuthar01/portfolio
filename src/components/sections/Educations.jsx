@@ -1,6 +1,29 @@
 import { skills } from "../../constants";
 
 const Educations = () => {
+
+    const widths = {
+        60: 'w-60',
+        65: 'w-65',
+        70: 'w-70',
+        75: 'w-75',
+        80: 'w-80',
+        85: 'w-85',
+        90: 'w-90',
+        95: 'w-95',
+        100: 'w-100',
+    }
+    const lefts = {
+        60: 'left-60',
+        65: 'left-65',
+        70: 'left-70',
+        75: 'left-75',
+        80: 'left-80',
+        85: 'left-85',
+        90: 'left-90',
+        95: 'left-95',
+        100: 'right-0',
+    }
     return(
         <section className="w-full bg-white py-16">
             <div className="w-4/5 mx-auto">
@@ -31,13 +54,12 @@ const Educations = () => {
                         <div className="about-skills mt-16">
                             {
                                 skills.map((skill)=> {
-                                 const   left_p = `${skill.level ==100 ? 'w-[100%]' : `w-[${skill.level}%]`}`;
                                     return(
                                     <div key={skill.title} className="skills mb-6">
                                         <h2 className="text-lg mb-1">{skill.title}</h2>
                                         <div className="w-[100%] bg-slate-500 h-1 relative rounded-md ">
-                                            <div className={`${left_p} h-1 bg-yellow-500`}>
-                                                <div className={`w-3 h-3 bg-yellow-500 rounded-full absolute  ${skill.level ==100 ? 'right-0' : `left-[${skill.level}%]`} -top-1`}></div>
+                                            <div className={`${widths[skill.level]} h-1 bg-yellow-500`}>
+                                                <div className={`w-3 h-3 bg-yellow-500 rounded-full absolute ${lefts[skill.level]}  -top-1`}></div>
                                             </div>
                                         </div>
                                     </div>

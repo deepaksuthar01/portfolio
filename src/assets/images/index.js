@@ -12,6 +12,7 @@ import phoneIcon from './phone-icon.svg';
 import instaIcon from './insta-icon.svg';
 import linkedinIcon from './linkedin-icon.svg';
 import twitterIcon from './twitter-icon.svg';
+import weiLogo from './webexpert-logo.jpeg';
 
 export {
     man_computer,
@@ -27,5 +28,6 @@ export {
     phoneIcon,
     instaIcon,
     linkedinIcon,
-    twitterIcon
+    twitterIcon,
+    weiLogo
 }

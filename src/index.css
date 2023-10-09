@@ -9,7 +9,7 @@
     .section-title{
         @apply font-bold text-4xl uppercase
     }
-   
+
 }
 @layer utilities {
     .site-bg {
