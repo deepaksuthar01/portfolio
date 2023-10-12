@@ -3,7 +3,7 @@ import { portfolios } from "../../constants";
 const Portfolio = () => {
     return(
         <section className="py-16">
-            <div className="container-xl">
+            <div className="container-xl"  data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" >
                 <h2 className="section-title mb-5">Portfolio</h2>
                 <div className="grid lg:grid-cols-3 grid-cols-1 gap-4">
                  {

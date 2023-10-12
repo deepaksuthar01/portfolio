@@ -1,14 +1,13 @@
-import { instaIcon,linkedinIcon,twitterIcon} from "../../assets/images";
-
+import { FaInstagram,FaLinkedin,FaTwitterSquare } from "react-icons/fa";
 const Footer = () => {
     return(
         <section className="bg-black py-16">
             <div className="text-center">
-                <h2 className="font-bold text-2xl text-white tracking-widest uppercase">Deepak Suthar</h2>
+                <h2 className="font-bold text-2xl text-white tracking-widest uppercase" >Deepak Suthar</h2>
                 <div className="mt-4 p-2 px-10 social flex gap-3 lg:justify-end justify-center">
-                    <img src={instaIcon} alt="instaIcon" className="w-8 invert " />
-                    <img src={linkedinIcon} alt="linkedinIcon" className="w-8 invert" />
-                    <img src={twitterIcon} alt="twitterIcon" className="w-8 invert" />
+                    <a href="#"><FaInstagram className='text-white text-4xl hover:text-red-500 hover:motion-safe:animate-spin' /></a>
+                    <a href="#"><FaLinkedin className='text-white text-4xl hover:text-blue-400 hover:motion-safe:animate-spin' /></a>
+                    <a href="#"><FaTwitterSquare className='text-white text-4xl hover:text-sky-400 hover:motion-safe:animate-spin' /></a>
                 </div>
             </div>
         </section>

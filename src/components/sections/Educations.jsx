@@ -31,7 +31,7 @@ const Educations = () => {
                     <h2 className="font-bold text-4xl">EDUCATION & SKILLS</h2>
                 </div>
                 <div className="flex lg:justify-evenly max-lg:flex-col max-lg:gap-10 mt-10">
-                    <div className="flex-1 lg:pr-20">
+                    <div className="flex-1 lg:pr-20"  data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                         <div className="shadow-xl bg-yellow-500 px-4 py-8 rounded-se-3xl">
                             <div className="bg-white px-3 py-1 my-2 -mx-5 text-black rounded-e-xl w-24 ">logical</div>
                             <h3 className="text-3xl font-semibold text-white ">Web Developer</h3>
@@ -48,7 +48,7 @@ const Educations = () => {
                             <p className="text-white mt-2">International Design Institute</p>
                         </div>
                     </div>
-                    <div className="flex-1 ">
+                    <div className="flex-1 "  data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                         <h3 className="text-3xl mb-5 font-semibold">Skills</h3>
                         <p className="text-md">I'm a Freelancer Front-end Developer with over 3 years of experience. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
                         <div className="about-skills mt-16">

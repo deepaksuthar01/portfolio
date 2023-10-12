@@ -3,7 +3,7 @@ import { weiLogo } from "../../assets/images";
 const Experience = () => {
     return(
         <section className="py-10">
-            <div className="container-xl">
+            <div className="container-xl"  data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                 <h3 className="section-title mb-16">Experience</h3> 
                 <div className="flex flex-wrap gap-4">
                     <div className="lg:w-1/3 flex flex-col rounded-lg bg-slate-700 hover:bg-yellow-500 shadow-md shadow-black">
