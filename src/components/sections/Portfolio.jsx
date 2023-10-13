@@ -8,11 +8,11 @@ const Portfolio = () => {
                 <div className="grid lg:grid-cols-3 grid-cols-1 gap-4">
                  {
                     portfolios.map((img,index)=> (
-                        <div key={index} className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat object-cover transition  ease-in-out ">
-                            <img src={img} alt={index}  className="max-w-xs transition duration-300 ease-in-out  transform hover:-translate-y-[100%] motion-reduce:transition-none motion-reduce:hover:transform-none"/>
+                        <div key={index} className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                            <img src={img} alt={index}  className="max-w-xs transition duration-300 ease-in-out hover:scale-110"/>
                             {/* <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-indigo-700 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-50"></div>                       */}
                         </div>
-                    ))  
+                    ))
                  }
                 </div>
             </div>
