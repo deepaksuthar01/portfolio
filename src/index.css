@@ -4,7 +4,7 @@
 
 @layer components{
     .site-btn{
-        @apply mt-10 bg-yellow-500 py-2 px-4 rounded-3xl font-serif font-semibold text-white  hover:text-black hover:shadow-2xl 
+        @apply mt-10 bg-yellow-500 py-2 px-4 rounded-3xl font-serif font-semibold text-white  hover:text-black  transition ease-in-out delay-150 hover:scale-110 duration-300
     }
     .section-title{
         @apply font-bold text-4xl uppercase

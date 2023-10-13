@@ -2,7 +2,7 @@ import { mailIcon, mapIcon, phoneIcon } from "../../assets/images";
 
 const Contact = () => {
     return(
-        <section className=" w-full  py-16 bg-blue-50">
+        <section id="contact" className=" w-full  py-16 bg-blue-50">
             <div className="container-xl">
                 <h3 className="section-title mb-10">Contact Me</h3>
                 <div className="flex gap-10 max-lg:flex-col" >

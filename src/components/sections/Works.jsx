@@ -1,7 +1,7 @@
 import {webDevlopeIcon,webDesignIcon,seoIcon } from '../../assets/images';
 const Works = () => {
     return(
-        <section className="w-full bg-blue-50 py-16">
+        <section id='services' className="w-full bg-blue-50 py-16">
             <div className="container-xl"  >
                 <h2 className="section-title mb-16">Services</h2>
                 <div className="flex lg:gap-3 gap-10 max-lg:flex-col ">
