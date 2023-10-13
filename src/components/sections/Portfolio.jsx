@@ -12,7 +12,7 @@ const Portfolio = () => {
                             <img src={img} alt={index}  className="max-w-xs transition duration-300 ease-in-out  transform hover:-translate-y-[100%] motion-reduce:transition-none motion-reduce:hover:transform-none"/>
                             {/* <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-indigo-700 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-50"></div>                       */}
                         </div>
-                    ))
+                    ))  
                  }
                 </div>
             </div>
