@@ -2,7 +2,7 @@ import { FaBars } from "react-icons/fa";
 import { MultitaskingMan, WorkingMan } from "../../assets/images";
 const Hero = () => {
     return (
-      <div id="home" className="site-bg lg:h-screen w-full pt-32 overflow-hidden">
+      <div id="home" className="site-bg lg:h-screen w-full pt-32 overflow-hidden ">
         <div className="relative">
             <div className="absolute -top-[350px] -right-[192px] w-[50rem] h-[50rem] bg-yellow-500 rounded-full" data-aos="fade-down-left"  data-aos-easing="ease-in-sine" data-aos-duration="2000"></div>
         </div>

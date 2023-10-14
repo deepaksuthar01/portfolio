@@ -7,7 +7,7 @@ import Footer from "./components/sections/Footer";
 import Header from "./components/sections/Header";
 import Hero from "./components/sections/Hero";
 import Portfolio from "./components/sections/Portfolio";
-import Works from "./components/sections/Works";
+import Services from "./components/sections/Services";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -25,7 +25,7 @@ export default function App() {
         <AboutMe />
         <Educations />
         <Experience />
-        <Works />
+        <Services />
         <Portfolio />
         <Contact />
       </main>

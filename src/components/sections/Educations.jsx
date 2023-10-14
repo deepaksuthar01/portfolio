@@ -25,7 +25,7 @@ const Educations = () => {
         100: 'right-0',
     }
     return(
-        <section className="w-full bg-white py-16">
+        <section className="w-full bg-site py-16">
             <div className="w-4/5 mx-auto">
                 <div className="title">
                     <h2 className="font-bold text-4xl">EDUCATION & SKILLS</h2>

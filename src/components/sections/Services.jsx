@@ -1,10 +1,10 @@
 import {webDevlopeIcon,webDesignIcon,seoIcon } from '../../assets/images';
-const Works = () => {
+const Services = () => {
     return(
-        <section id='services' className="w-full bg-blue-50 py-16">
+        <section id='services' className="w-full bg-blue-50 py-16 bg-dark ">
             <div className="container-xl"  >
                 <h2 className="section-title mb-16">Services</h2>
-                <div className="flex lg:gap-3 gap-10 max-lg:flex-col ">
+                <div className="flex lg:gap-3 gap-10 max-lg:flex-col dark:text-black">
                     <div className="flex justify-between gap-3 shadow-xl bg-white lg:w-1/3 p-6 rounded-sm hover:bg-yellow-500"  data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <div className="w-56 mt-2">
                             <img src={webDesignIcon} alt="webDesignIcon" />
@@ -39,4 +39,4 @@ const Works = () => {
     );
 }
 
-export default Works;
+export default Services;

@@ -1,11 +1,11 @@
 import { aboutme} from "../../assets/images";
 const AboutMe = () => {
     return (
-        <section id="about" className="py-16 bg-blue-50 " >
+        <section id="about" className="py-16 bg-blue-50 bg-dark"  >
             <div className="container-xl">
                 <h2 className="section-title mb-5">About Me</h2>
                 <div className="flex flex-wrap gap-10 max-lg:flex-col overflow-hidden">
-                    <div className="flex-1 bg-yellow-500 rounded-ee-full" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+                    <div className="flex-1 bg-yellow-500 rounded-ee-full " data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                         <div className="p-1">
                             <img src={aboutme} alt="about me" />
                         </div>
