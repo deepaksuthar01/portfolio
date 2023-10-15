@@ -1,7 +1,9 @@
 import { FaInstagram,FaLinkedin,FaTwitterSquare } from "react-icons/fa";
+import { footerbg } from "../../assets/images";
+
 const Footer = () => {
     return(
-        <section className="bg-black py-16">
+        <section className="bg-black bg-dark py-16" style={{backgroundImage:`url('${footerbg}')` }}>
             <div className="text-center">
                 <h2 className="font-bold text-2xl text-white tracking-widest uppercase" >Deepak Suthar</h2>
                 <div className="mt-4 p-2 px-10 social flex gap-3 lg:justify-end justify-center">
