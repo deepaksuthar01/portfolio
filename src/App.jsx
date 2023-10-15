@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import AboutMe from "./components/sections/AboutMe";
 import Contact from "./components/sections/Contact";
 import Educations from "./components/sections/Educations";
-import Experience from "./components/sections/Experience";
 import Footer from "./components/sections/Footer";
 import Header from "./components/sections/Header";
 import Hero from "./components/sections/Hero";
@@ -24,7 +23,6 @@ export default function App() {
       <main>
         <AboutMe />
         <Educations />
-        <Experience />
         <Services />
         <Portfolio />
         <Contact />
