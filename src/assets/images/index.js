@@ -15,6 +15,7 @@ import twitterIcon from './twitter-icon.svg';
 import weiLogo from './webexpert-logo.jpeg';
 import Schoolsincloud from './schoolsincloud.jpg';
 import footerbg from './footer-bg.png';
+import NoPageImg from './404.svg';
 
 export {
     man_computer,
@@ -33,5 +34,6 @@ export {
     twitterIcon,
     weiLogo,
     Schoolsincloud,
-    footerbg
+    footerbg,
+    NoPageImg
 }

@@ -12,7 +12,7 @@ const Portfolio = () => {
                         <div key={index} className="relative max-w-xs overflow-hidden portfolio-content">
                             <div className="scroll-img" style={{ backgroundImage: `url('${item.img}')`}}></div>
                           
-                            <div className=" scroll-content absolute bg-[#000000b3]  w-full h-auto top-[150%] left-0 transition-all ease-in-out delay-150  text-white text-center p-6 duration-1000">
+                            <div className=" scroll-content absolute bg-[#000000b3]  w-full h-full top-[150%] left-0 transition-all ease-in-out delay-150  text-white text-center p-6 duration-1000">
                                 <h4 className="text-2xl font-bold mb-3">{item.title}</h4>
                                 <p className="mb-3">{item.desc}</p>
                                 <p className="technology mb-3">{item.tech}</p> 
