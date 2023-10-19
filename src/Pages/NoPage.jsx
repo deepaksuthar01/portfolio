@@ -3,8 +3,8 @@ import { NoPageImg } from "../assets/images";
 const NoPage= () => {
     return (
         <div>           
-           <div className="py-16 h-screen">
-                <div className="w-1/2 m-auto">
+           <div className="py-16">
+                <div className="lg:w-1/2 w-full min-h-1/2 mt-20 m-auto">
                     <div className="w-1/2 m-auto">
                         <img src={NoPageImg} alt="404"  className="" />
                     </div>                   

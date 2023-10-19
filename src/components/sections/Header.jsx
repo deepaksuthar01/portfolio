@@ -1,12 +1,15 @@
 import { FaBars } from "react-icons/fa";
-import { Outlet, Link } from "react-router-dom";
+import { useLocation } from 'react-router-dom';
+
 const Header = () => {
+    const location =  useLocation();
+    const isHome = location.pathname == '/'; 
     const toggleHandler = () => {
         document.getElementById('mobile-menu').classList.toggle('hidden');
     }
     const handleScroll = event => {
         const scrollTop = window.scrollY;
-        if(parseInt(scrollTop) > 80){            
+        if(parseInt(scrollTop) > 80 || !isHome){            
             document.getElementById('navmenu').classList.remove('absolute');
             document.getElementById('navmenu').classList.add('fixed','bg-white','shadow-xl','bg-dark');
         }else{
@@ -26,7 +29,7 @@ const Header = () => {
     window.addEventListener('click', handleClick);
     return (
         <header>
-            <div id="navmenu" className="absolute top-0 w-full z-20 transition ease-in-out delay-150" >
+            <div id="navmenu" className={`${isHome ? 'absolute' : 'fixed bg-white shadow-xl bg-dark' } top-0 w-full z-20 transition ease-in-out delay-150`} >
                 <nav className="bg-transparent flex justify-between items-center max-lg:p-10 lg:p-4 px-16 max-lg:shadow-xl max-lg:bg-white dark:max-lg:bg-slate-900 ">
                     <div className="site-log">  
                         <a href="/">
