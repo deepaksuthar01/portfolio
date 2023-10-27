@@ -16,6 +16,7 @@ import weiLogo from './webexpert-logo.jpeg';
 import Schoolsincloud from './schoolsincloud.jpg';
 import footerbg from './footer-bg.png';
 import NoPageImg from './404.svg';
+import loginLeft from './login-left.svg';
 
 export {
     man_computer,
@@ -35,5 +36,6 @@ export {
     weiLogo,
     Schoolsincloud,
     footerbg,
-    NoPageImg
+    NoPageImg,
+    loginLeft
 }
